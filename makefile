@@ -1,6 +1,6 @@
 
 #Use gcc since we a programing in C
-CC = gcc
+CC = g++
 
 INCLUDES = 
 
@@ -10,7 +10,7 @@ LIBS = -ltiff
 #need compiler warnings
 CFLAGS = -g -c -Wall $(INCLUDES) -std=gnu++0x
 
-SOURCES = main.cpp PicEdit.cpp
+SOURCES = MainP.cpp PicEdit.cpp
 
 #Our objects will be the same file as our sources, just with .o 
 OBJECTS = $(SOURCES:.cpp=.o)

@@ -22,7 +22,7 @@ PicEdit::~PicEdit(){
 		_TIFFfree(pInputRast);
 	}	
 
-	if(pOutputRast !- NULL){
+	if(pOutputRast != NULL){
 		_TIFFfree(pOutputRast);
 	}
 }
